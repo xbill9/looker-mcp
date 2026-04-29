@@ -2,7 +2,7 @@
 "mcpServers": {
   "looker-toolbox": {
     "command": "$HOME/looker-mcp/toolbox",
-    "args": ["--stdio", "--prebuilt", "looker"],
+    "args": ["--stdio", "--prebuilt", "looker,looker-dev"],
     "env": {
       "LOOKER_BASE_URL": "${LOOKER_BASE_URL}",
       "LOOKER_CLIENT_ID": "${LOOKER_CLIENT_ID}",
