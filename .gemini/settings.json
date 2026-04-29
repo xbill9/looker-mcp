@@ -1,0 +1,14 @@
+{
+"mcpServers": {
+  "looker-toolbox": {
+    "command": "$HOME/looker-mcp/toolbox",
+    "args": ["--stdio", "--prebuilt", "looker"],
+    "env": {
+      "LOOKER_BASE_URL": "${LOOKER_BASE_URL}",
+      "LOOKER_CLIENT_ID": "${LOOKER_CLIENT_ID}",
+      "LOOKER_CLIENT_SECRET": "${LOOKER_CLIENT_SECRET}",
+      "LOOKER_VERIFY_SSL": "true"
+    }
+  }
+}
+}
